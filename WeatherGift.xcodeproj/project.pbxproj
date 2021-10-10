@@ -15,6 +15,7 @@
 		7C169325271270F900B25046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C169323271270F900B25046 /* LaunchScreen.storyboard */; };
 		7C16932F2712716300B25046 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16932E2712716300B25046 /* WeatherLocation.swift */; };
 		7C82BBD42712841700122BDA /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82BBD32712841700122BDA /* APIkeys.swift */; };
+		7C82BBD62713499900122BDA /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C82BBD52713499900122BDA /* LocationDetailViewController.swift */; };
 		AA51434E1DAE1A89AF5762C6 /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF366B6B08113890E6228BD8 /* libPods-WeatherGift.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		7C169326271270F900B25046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C16932E2712716300B25046 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		7C82BBD32712841700122BDA /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
+		7C82BBD52713499900122BDA /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 		BF366B6B08113890E6228BD8 /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				7C169318271270F700B25046 /* AppDelegate.swift */,
 				7C16931A271270F700B25046 /* SceneDelegate.swift */,
 				7C16932E2712716300B25046 /* WeatherLocation.swift */,
+				7C82BBD52713499900122BDA /* LocationDetailViewController.swift */,
 				7C16931C271270F700B25046 /* LocationListViewController.swift */,
 				7C16931E271270F700B25046 /* Main.storyboard */,
 				7C169321271270F900B25046 /* Assets.xcassets */,
@@ -216,6 +219,7 @@
 				7C16932F2712716300B25046 /* WeatherLocation.swift in Sources */,
 				7C82BBD42712841700122BDA /* APIkeys.swift in Sources */,
 				7C169319271270F700B25046 /* AppDelegate.swift in Sources */,
+				7C82BBD62713499900122BDA /* LocationDetailViewController.swift in Sources */,
 				7C16931B271270F700B25046 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
