@@ -34,6 +34,7 @@ class LocationListViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         selectedLocationIndex = tableView.indexPathForSelectedRow!.row
+        saveLocations()
     }
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
